@@ -1,0 +1,96 @@
+body{
+font-family:"poppins"sans-serif;
+background-color: #ccc;
+}
+.nav-bar ul{
+ display: flex;
+ justify-content:center;
+ list-style-type:none;  
+ margin: 0;
+ padding: 0;
+ 
+}
+
+.nav-bar li{
+  
+    float: left;
+}
+
+.nav-bar a{
+    display: block; /*torna os link clicaveis em toda áreado item*/
+    color:black ; /* cor do texto branca*/
+    text-align: center; /*cen*/
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/*ESTILIZACÃO INDEX:*/
+
+.card-container{
+    display: flex;
+     justify-content: space-around;
+}    
+.card{
+    border: 1px solid#ccc;
+    background-color:rgb(160, 95, 95) ;
+    padding:20px ;
+    margin: 10px;
+    width: 300px;
+}
+
+
+table
+{
+    border:3px solid black;/*JUNTAR AS BORDAS DAS CELULAS*/
+    border-collapse: collapse;/*LARGURA DA TABELA*/
+    width:80%;
+    margin: 20px auto;/*MARGIN -> MARGEM. CENTRALIZAR A TABELA */
+}    
+th,td{
+    border:1px solid #add;/*BORDA*/
+    padding:12px;/*ESPAÇO INTERNO*/
+    text-align:left;/*ALINHAR O TEXTO Á ESQUERDA*/
+}
+
+th{
+background-color: #add; /*COR DE FUNDO*/
+font-weight:bold;/*PESO DA FONTE -> ESTA EM  NEGRITO*/   
+}
+.botao{
+    background-color:#e9af10;
+    border:none;
+    border-radius: 15px;
+    padding: 15px 32px;
+    display: block;
+    margin: 02 auto;
+     cursor: pointer;
+ }    
+
+ a{ 
+    text-decoration: none;
+ }
+
+
+
+
+form{
+    border:1px solid #ccc;
+    max-width:500px;
+    padding:20px;
+    margin:0 auto;
+}    
+ footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+ }   
+
+
+
+.img-footer{
+   border-radius: 50%;
+   margin: 1.2%;
+
+}
+
